@@ -9,6 +9,6 @@ Starter prototyping project using Gulp, Browsersync, and SASS
 # How to run
 - `npm install`
 - `gulp develop`
-
+- grab your compiled stuffs on `dist` folder 😀
 # License
 - otw
