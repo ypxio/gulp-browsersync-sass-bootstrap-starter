@@ -4,7 +4,7 @@ Starter prototyping project using Gulp, Browsersync, and SASS
 # Pre-requisites
 - Node
 - NPM
-- ass/ruby (http://sass-lang.com/install)
+- SASS/Ruby (http://sass-lang.com/install)
 
 # How to run
 - `npm install`
