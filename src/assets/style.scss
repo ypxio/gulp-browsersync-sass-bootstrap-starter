@@ -2,13 +2,8 @@ h1 {
   color: red;
 }
 
-ul {
-  display: block;
-  li {
-    display: inline;
-    a {
-      font-size: 14px;
-      color: red;
+div.content {
+    p {
+        color: blue;
     }
-  }
 }
