@@ -3,6 +3,7 @@ var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 var fileInclude = require('gulp-file-include');
 
+/* SASS compiling task */
 gulp.task('sass-compile', function(){
   return gulp.src('./src/assets/style.scss')
     .pipe(sass({outputStyle: 'expanded'}))
@@ -10,6 +11,7 @@ gulp.task('sass-compile', function(){
     .pipe(browserSync.stream())
 });
 
+/* Template compiling task */
 gulp.task('template-compile', function(){
   return gulp.src('./src/**/*.html')
     .pipe(
@@ -22,6 +24,7 @@ gulp.task('template-compile', function(){
     .pipe(browserSync.stream())
 });
 
+/* Default task */
 gulp.task('develop', ['sass-compile', 'template-compile'], function(){
   browserSync.init({
     server: "./dist"
